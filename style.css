@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(34, 144, 192);
+    background-color: rgb(110, 73, 120);
     color: #000;
 }
 
@@ -20,7 +20,7 @@ ul {
 
 
 header {
-    background-color: aqua;
+    background-color: #2e8484;
     border-bottom: 1px solid #ccc;
     padding: 20px;
     background-image: url(/images/clouds.webp);
@@ -49,6 +49,12 @@ nav a {
     text-transform: uppercase;
 }
 
+
+main p {
+    font:bolder;
+    width: 773px;
+    padding: 9px 12px;
+}
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -139,6 +145,8 @@ footer p {
     align-items: center;
 }
 
-.contacts li {
-    justify-content: center;
+.Contacts li {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
